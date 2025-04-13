@@ -24,8 +24,8 @@ services:
   app:
     restart: unless-stopped
     build: .
-    links:
-      - "mariadb"
+#    links:
+#      - "mariadb"
     volumes:
       - .:/code
     ports:
